@@ -1,9 +1,9 @@
 .introducao {
-    max-width: 1100px;
-    padding: 40px 20px;
+    max-width: 1200px;
+    padding: 40px 40px;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 5fr 7fr;
     gap: 100px;
     align-items: center;
     text-align: center;
@@ -21,8 +21,8 @@
 }
 
 .perfil {
-    border-radius: 100px;
-    max-width: 100%;
+    border-radius: 30%;
+    width: 100%;
 }
 
 /* ==================== Responsividade ==================== */

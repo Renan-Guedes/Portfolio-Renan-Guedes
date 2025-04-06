@@ -1,24 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 body {
-    font-family: 'Fira Sans', Arial, sans-serif;
-    margin: 0px;
+    font-family: "Fira Sans", Arial, Verdana, sans-serif;
     color: #141414;
-    background-color: #49534d;
+    background-color: #8B6F47;
 }
 
-h1,
-h2,
-h3,
-p {
-    margin: 0px;
+h1 {
+    font-weight: 500;
+    font-style: normal;
 }
 
-ul {
-    margin: 0px;
-    padding: 0px;
-    list-style: none;
-}
-
-img {
-    max-width: 100%;
-    display: block;
+a {
+    text-decoration: none;
 }
