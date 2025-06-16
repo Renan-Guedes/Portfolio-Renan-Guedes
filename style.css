@@ -14,9 +14,9 @@
 }
 
 :root {
-    --bg-color: #a96c2f;
+    --bg-color: #55423D;
     --text-color: #ededed;
-    --main-color: #454e6e;
+    --main-color: #cea15b;
 }
 
 html {
@@ -50,7 +50,7 @@ body {
 }
 
 .navbar a {
-    font-size: 1.7rem;
+    font-size: 2rem;
     color: var(--text-color);
     font-weight: 500;
     margin-left: 3.5rem;
@@ -77,9 +77,14 @@ section {
 }
 
 .home {
-    display: flex;
+    display: grid;
     align-items: center;
     padding: 0 9%;
+    grid-template-columns: 1fr 1fr;
+}
+
+.home-image img {
+    border-radius: 25%;
 }
 
 .home-content {
@@ -98,10 +103,9 @@ section {
 }
 
 .home-content .text-animate h3 {
-    font-size: 3.2rem;
+    font-size: 2.5rem;
     font-weight: 700;
-    color: transparent;
-    -webkit-text-stroke: .7px var(--main-color);
+    color: var(--main-color);
 }
 
 .home-content p {
