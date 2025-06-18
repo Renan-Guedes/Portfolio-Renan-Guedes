@@ -30,6 +30,11 @@ body {
     color: var(--text-color);
 }
 
+section {
+    min-height: 100vh;
+    padding: 10rem 9% 2rem;
+}
+
 /* ======================== Header ======================== */
 
 .header {
@@ -71,11 +76,6 @@ body {
 }
 
 /* ======================== Home ======================== */
-
-section {
-    min-height: 100vh;
-    padding: 10rem 9% 2rem;
-}
 
 .home {
     display: grid;
@@ -300,7 +300,6 @@ span {
 /* ======================== Contatos ======================== */
 
 .contatos {
-    min-height: auto;
     padding-bottom: 7rem;
 }
 
@@ -373,3 +372,62 @@ span {
     cursor: pointer;
 }
 
+/* ======================== Footer ======================== */
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 2rem 9%;
+    background-color: var(--second-color);
+}
+
+.footer-text p {
+    font-size: 1.6rem;
+    margin-right: 4rem;
+}
+
+.footer-iconTop a {
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: .8rem;
+    background-color: var(--main-color);
+    border: .2rem solid var(--main-color);
+    border-radius: .6rem;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.footer-iconTop a::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background-color: var(--second-color);
+    z-index: -1;
+    transition: .5s;
+}
+
+.footer-iconTop a:hover::before {
+    width: 100%;
+}
+
+.footer-iconTop a i {
+    font-size: 2.4rem;
+    color: var(--bg-color);
+}
+
+.footer-iconTop a i {
+    font-size: 2.4rem;
+    color: var(--bg-color);
+    transition: .5s;
+}
+
+.footer-iconTop a:hover i {
+    color: var(--main-color);
+}
